@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./blank-wooden.jpg');
+}
+
+.b1 {
+    border: 10px solid rgb(34, 0, 255);
+    height: 800px;
+    width: 500px;
+    border-radius: 100px;
+}
+
+#pratik {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 500px;
+}
+
+#game {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    height: 100px;
+    width: 200px;
+    font-size: 50px;
+}
+button:hover {
+   color: green;
+   background-color: red;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    img {
+        font-size: 1.2rem;
+
+    }
+}
