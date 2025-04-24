@@ -1,0 +1,60 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('blank-wooden.jpg') no-repeat center center/cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 8px solid royalblue;
+    border-radius: 30px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+}
+
+.logo {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.start-btn {
+    background-color: royalblue;
+    color: white;
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.start-btn:hover {
+    background-color: red;
+    color: #fff;
+}
+
+/* Responsive tweaks */
+@media (max-width: 480px) {
+    .start-btn {
+        font-size: 1.2rem;
+        padding: 12px 24px;
+    }
+    .logo {
+        max-width: 150px;
+    }
+}
