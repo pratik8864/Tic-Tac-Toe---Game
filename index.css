@@ -1,11 +1,10 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +53,9 @@ body{
         font-size: 1.2rem;
         padding: 12px 24px;
     }
+
     .logo {
         max-width: 150px;
     }
 }
+
